@@ -3,12 +3,12 @@ import { CiMenuBurger } from "react-icons/ci";
 
 const Header = () => {
 	return (
-		<section className="container flex items-center justify-between md:justify-start">
+		<section className="container flex items-center justify-between py-5 md:justify-start">
 			<div className="flex md:hidden">
-				<CiMenuBurger />
+				<CiMenuBurger size={"2rem"} />
 			</div>
 
-			<div className="hidden md:flex py-5 ml-24 lg:ml-48">
+			<div className="hidden md:flex ml-24 lg:ml-48">
 				<NavbarHeader />
 			</div>
 		</section>
