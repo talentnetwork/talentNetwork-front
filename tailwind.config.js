@@ -34,7 +34,7 @@ module.exports = {
 					600: "#355E9C",
 					900: "#1A2F4E",
 				},
-				typoDark: {
+				typoLight: {
 					50: "#BABABA",
 					200: "#989898",
 					400: "#303030",
