@@ -23,7 +23,7 @@ const NavbarHeader = () => {
 	];
 
 	return (
-		<ul>
+		<ul className="flex gap-10 items-center">
 			{itemNavBar &&
 				itemNavBar.map(({ name, link }, index) => (
 					<li key={index}>
