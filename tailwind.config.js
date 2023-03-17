@@ -1,5 +1,5 @@
 module.exports = {
-	darkMode: 'class',
+	darkMode: "class",
 
 	content: [
 		"./app/**/*.{js,ts,jsx,tsx}",
@@ -43,7 +43,7 @@ module.exports = {
 					600: "#757575",
 					900: "#535353",
 				},
-				darkMode:{
+				darkMode: {
 					50: "#F9F9F9",
 					200: "#F1F1F1",
 					400: "#888888",
@@ -61,9 +61,9 @@ module.exports = {
 				},
 			},
 		},
-		boxShadow:{
-			btn:'1px 2px 12px rgba(0, 0, 0, 0.12)'
-		}
+		boxShadow: {
+			btn: "1px 2px 12px rgba(0, 0, 0, 0.12)",
+		},
 	},
 	plugins: [],
 };

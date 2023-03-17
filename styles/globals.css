@@ -5,15 +5,15 @@
 @tailwind utilities;
 
 input:focus,
-input:focus-visible{
-    outline: none;
+input:focus-visible {
+	outline: none;
 }
 
 input:focus::placeholder,
-input:focus-visible::placeholder{
-    color: transparent;
+input:focus-visible::placeholder {
+	color: transparent;
 }
 
-body{
-    @apply bg-white dark:bg-darkMode-900
+body {
+	@apply bg-white dark:bg-darkMode-900 dark:text-white;
 }

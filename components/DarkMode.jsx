@@ -19,7 +19,7 @@ const DarkMode = () => {
 	};
 
 	return (
-		<label className="relative inline-flex w-14 items-center cursor-pointer">
+		<label className="relative inline-flex w-16 items-center cursor-pointer">
 			<input
 				onClick={showInput}
 				type="checkbox"
@@ -27,13 +27,15 @@ const DarkMode = () => {
 				defaultChecked={themeMode}
 			/>
 
-			<div className="flex items-center justify-between w-14 h-8 rounded-full peer-checked:after:translate-x-5 after:content-[''] after:absolute after:top-1/2 after:-translate-y-1/2 after:left-2 after:rounded-full after:h-5 after:w-5 shadow-btn bg-white dark:bg-darkMode-400 after:bg-primary-400 dark:after:bg-primary-200 dark:after:shadow-[1px_2px_10px_rgba(234,135,79,0.2)] text-gray-900 dark:text-white p-1.5 after:duration-300">
+			<div className="flex items-center justify-between w-full h-8 rounded-full peer-checked:after:translate-x-7 after:content-[''] after:absolute after:top-1/2 after:-translate-y-1/2 after:left-2 after:rounded-full after:h-5 after:w-5 shadow-btn bg-white dark:bg-darkMode-400 after:bg-primary-400 dark:after:bg-primary-200 dark:after:shadow-[1px_2px_10px_rgba(234,135,79,0.2)] text-gray-900 dark:text-white p-1.5 after:duration-300">
 				<CiDark
 					className={`${themeMode ? "opacity-1" : "opacity-0"} duration-300`}
+					size={"1.8rem"}
 				/>
 
 				<CiBrightnessDown
 					className={`${themeMode ? "opacity-0" : "opacity-1"} duration-300`}
+					size={"1.8rem"}
 				/>
 			</div>
 		</label>

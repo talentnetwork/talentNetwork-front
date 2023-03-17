@@ -16,7 +16,7 @@ const Header = () => {
 				</div>
 
 				<div className="hidden md:flex ml-24 lg:ml-48">
-					<NavbarHeader priority='header' />
+					<NavbarHeader priority="header" />
 				</div>
 
 				<div className="hidden md:flex ml-24 lg:ml-48">

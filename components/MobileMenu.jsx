@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { CiMenuBurger } from "react-icons/ci";
 import { IoClose, IoMenu } from "react-icons/io5";
 import NavbarHeader from "../components/NavbarHeader";
 import DarkMode from "../components/DarkMode";
