@@ -19,7 +19,7 @@ const DarkMode = () => {
 	};
 
 	return (
-		<label className="relative inline-flex w-14 items-center mr-5 cursor-pointer">
+		<label className="relative inline-flex w-14 items-center cursor-pointer">
 			<input
 				onClick={showInput}
 				type="checkbox"
