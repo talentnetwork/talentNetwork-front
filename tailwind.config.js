@@ -1,4 +1,6 @@
 module.exports = {
+	darkMode: "class",
+
 	content: [
 		"./app/**/*.{js,ts,jsx,tsx}",
 		"./layout/**/*.{js,ts,jsx,tsx}",
@@ -41,6 +43,13 @@ module.exports = {
 					600: "#757575",
 					900: "#535353",
 				},
+				darkMode: {
+					50: "#F9F9F9",
+					200: "#F1F1F1",
+					400: "#888888",
+					600: "#656565",
+					900: "#292929",
+				},
 				success: {
 					100: "#50CB82",
 				},
@@ -51,6 +60,9 @@ module.exports = {
 					100: "#FFDB7D",
 				},
 			},
+		},
+		boxShadow: {
+			btn: "1px 2px 12px rgba(0, 0, 0, 0.12)",
 		},
 	},
 	plugins: [],
