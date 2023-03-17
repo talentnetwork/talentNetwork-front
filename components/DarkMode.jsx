@@ -1,12 +1,10 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { CiBrightnessDown, CiDark } from "react-icons/ci";
 
 const DarkMode = () => {
 	const [isDarkMode, setIsDarkMode] = useState(false);
 
 	const [themeMode, setThemeMode] = useState(false);
-
-	const inputDarkMode = useRef();
 
 	useEffect(() => {
 		setThemeMode(localStorage.theme === "dark" ? false : true);
@@ -25,13 +23,11 @@ const DarkMode = () => {
 
 	return (
 		<label className="relative inline-flex w-14 items-center mr-5 cursor-pointer">
-			{console.log(themeMode)}
 			<input
 				onClick={showInput}
 				type="checkbox"
 				className="sr-only peer"
 				defaultChecked={themeMode}
-				ref={inputDarkMode}
 			/>
 
 			<div className="flex items-center justify-between w-14 h-8 rounded-full peer-checked:after:translate-x-5 after:content-[''] after:absolute after:top-1/2 after:-translate-y-1/2 after:left-2 after:rounded-full after:h-5 after:w-5 shadow-btn bg-white dark:bg-darkMode-400 after:bg-primary-400 dark:after:bg-primary-200 dark:after:shadow-[1px_2px_10px_rgba(234,135,79,0.2)] text-gray-900 dark:text-white p-1.5 after:duration-300">

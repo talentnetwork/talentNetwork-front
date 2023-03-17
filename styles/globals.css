@@ -13,3 +13,7 @@ input:focus::placeholder,
 input:focus-visible::placeholder{
     color: transparent;
 }
+
+body{
+    @apply bg-white dark:bg-darkMode-900
+}
