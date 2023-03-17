@@ -2,13 +2,10 @@ import { useEffect, useState } from "react";
 import { CiBrightnessDown, CiDark } from "react-icons/ci";
 
 const DarkMode = () => {
-	const [isDarkMode, setIsDarkMode] = useState(false);
-
 	const [themeMode, setThemeMode] = useState(false);
 
 	useEffect(() => {
 		setThemeMode(localStorage.theme === "dark" ? false : true);
-		setIsDarkMode(themeMode);
 		if (localStorage.theme)
 			document.documentElement.classList.add(localStorage.theme);
 	}, []);
