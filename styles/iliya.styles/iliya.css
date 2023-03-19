@@ -1,0 +1,2150 @@
+@font-face{
+  font-family:poppins ;
+  src: url(Poppins-Regular.ttf);
+}
+
+*{
+  font-family: poppins;
+    margin:0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 12px;
+}
+#head{
+  width: 1360px;
+  height: 824px;
+  position: absolute;
+  top: 102px;
+  left: 39px;
+  border-radius: 22px;
+  background-color: #fff4ee;
+  box-shadow: 2px 4px 16px rgba(255, 244, 238, 0.4);
+}
+
+#akse-head{
+  position: absolute;
+width: 593px;
+height: 858.11px;
+left: 753px;
+top: -112.44px;
+
+background: url();
+}
+
+#titr-balaye-head{
+  position: absolute;
+width: 592px;
+height: 72px;
+left: 73px;
+top: 123px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 72px;
+color: #303030;
+text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+#line-narenji{   
+position: absolute;
+width: 595px;
+height: 27px;
+left: 70px;
+top: 162px;
+background: #FFC29D;
+}
+
+#matn-balaye-head{
+  position: absolute;
+width: 591px;
+height: 54px;
+left: 73px;
+top: 239px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #303030;
+}
+
+#kalame-talnetnetword{
+  color: #EA874F;
+  text-decoration: underline;
+}
+#dokme-narenji{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 10px;
+position: absolute;
+left: 5%;
+right: 9.89%;
+top: 340px;
+bottom: 11.03%;
+background: #EA874F;
+border-radius: 6px;
+width: 80px;
+height: 20px;
+box-shadow: 0px 0px 10px #EA874F;
+}
+
+#matn-dokme-narenji{
+  width: 101px;
+height: 27px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+position: absolute;
+left: 30px;
+top: 12px;
+}
+
+#kadre-narenji{
+  position: absolute;
+width: 526px;
+height: 155px;
+left: 70px;
+top: 530px;
+background: #FFC29D;
+box-shadow: 4px 8px 20px rgba(255, 194, 157, 0.4);
+border-radius: 10px;
+}
+
+#adad1-kadre-narenji{
+  position: absolute;
+  width: 61px;
+  height: 48px;
+  left: 32px;
+  top: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #303030;
+}
+#adad2-kadre-narenji{
+  position: absolute;
+width: 60px;
+height: 48px;
+left: 315px;
+top: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #303030;
+}
+#adad3-kadre-narenji{
+  position: absolute;
+width: 63px;
+height: 48px;
+left: 32px;
+top: 86px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #303030;
+}
+#adad4-kadre-narenji{
+  position: absolute;
+width: 62px;
+height: 48px;
+left: 318px;
+top: 86px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #303030;
+}
+#matn1-kadre-narenji{
+  position: absolute;
+  width: 154px;
+  height: 24px;
+  left: 112px;
+  top: 29px;
+  
+  /* txt-des-m */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  
+  /* identical to box height */
+  
+  /* typo-light4 */
+  color: #535353;
+  
+   
+}
+#matn2-kadre-narenji{
+  position: absolute;
+width: 69px;
+height: 24px;
+left: 395px;
+top: 28px;
+
+/* txt-des-m */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+/* identical to box height */
+
+/* typo-light4 */
+color: #535353;
+}
+#matn3-kadre-narenji{
+  position: absolute;
+width: 93px;
+height: 24px;
+left: 112px;
+top: 95px;
+
+/* txt-des-m */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+/* identical to box height */
+
+/* typo-light4 */
+color: #535353;
+}
+#matn4-kadre-narenji{
+  position: absolute;
+width: 103px;
+height: 24px;
+left: 395px;
+top: 95px;
+
+/* txt-des-m */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+/* identical to box height */
+
+/* typo-light4 */
+color: #535353;
+}
+
+#dayere-to-khali-ba-kadr-abi{
+  box-sizing: border-box;
+
+position: absolute;
+height: 150px;
+        width: 300px;
+        border-radius:1500px 1500px 0px 0px;
+left: 336px;
+top: 719px;
+
+/* scondary3 */
+border: 1px solid #355E9C;
+}
+
+#mostatil-sefid{
+  background-color: #ffffff;
+  height: 70px;
+  width: 350px;
+  position: absolute;
+  left: 290px;
+  top: 825px;
+}
+
+#khate-saf-balaye-head{
+  position: absolute;
+width: 276px;
+height: 0px;
+left: 924.35px;
+top: 57.22px;
+
+border: 0.1px solid #525252;
+transform: rotate(-0.66deg);
+}
+
+#moraba-chape-khate-saf-balaye-head{
+  box-sizing: border-box;
+
+position: absolute;
+width: 5.84px;
+height: 5.84px;
+left: 923.32px;
+top: 56px;
+
+background: #FFFCFC;
+border: 0.87577px solid #525252;
+transform: rotate(90.03deg);
+}
+
+#moraba-raste-khate-saf-balaye-head{
+  box-sizing: border-box;
+
+position: absolute;
+width: 5.84px;
+height: 5.84px;
+left: 1200.16px;
+top: 54px;
+
+background: #FFFCFC;
+border: 0.87577px solid #525252;
+transform: rotate(-178.65deg);
+}
+
+#dayere-vasat-khate-saf-balaye-head{
+  box-sizing: border-box;
+
+position: absolute;
+width: 7.3px;
+height: 7.3px;
+left: 1065.98px;
+top: 54px;
+
+background: #FFFFFF;
+
+/* scondary3 */
+border: 1.45962px solid #355E9C;
+transform: rotate(-177.46deg);
+border-radius: 50%;
+}
+
+
+#khate-kham-balaye-head{
+  position: absolute;
+
+left:820px;
+top: 59.5px;
+
+/* scondary3 */
+border: 1px solid #355E9C;
+transform: rotate(360deg);
+  width:500px; height:100px;  
+  
+  border-color:#000 transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
+}
+
+#moraba-chap-khate-kham-balaye-head{
+  box-sizing: border-box;
+
+position: absolute;
+width: 8.76px;
+height: 8.76px;
+left: 855.96px;
+top: 101.91px;
+
+background: #FFFCFC;
+
+/* scondary3 */
+border: 1.45962px solid #355E9C;
+transform: rotate(140.4deg);
+}
+
+#moraba-rast-khate-kham-balaye-head{
+  box-sizing: border-box;
+
+position: absolute;
+width: 8.76px;
+height: 8.76px;
+left: 1275.96px;
+top: 100.77px;
+
+background: #FFFCFC;
+
+/* scondary3 */
+border: 1.45962px solid #355E9C;
+transform: rotate(-127.06deg);
+}
+
+#dayere-narenji{
+  position: absolute;
+width: 513px;
+height: 513px;
+left: 790px;
+top: 240px;
+
+/* primary */
+background: #EA874F;
+transform: rotate(-15deg);
+border-radius: 50%;
+
+}
+#dayere-abi-payin{
+  position: absolute;
+  
+  left: 0px;
+  top: 624px;
+  
+  /* scondary1 */
+  background: #DDEBFF;
+        height: 200px;
+        width: 400px;
+        border-radius: 300px 300px 0 40px;
+  
+}
+#dayere-abi-bala{
+
+  position: absolute;
+  width: 540px;
+  height: 550px;
+  left: 820px;
+  top: 55px;
+  
+  /* scondary1 */
+  background: #DDEBFF;
+  border-radius: 50%;
+  border-radius: 500px 420px 420px 500px;
+}
+#akse-head{
+  position: absolute;
+width: 550px;
+height: 550px;
+left: 753px;
+top:90px;
+
+background: url(akse-head.png);
+border-radius: 50%;
+background-repeat: no-repeat;
+
+
+}
+#alamate-code-ba-slash{
+  position: absolute;
+  width: 87px;
+  height: 52px;
+  left: 1269px;
+  top: 178px;
+  
+  font-family: 'Port Lligat Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 52px;
+  
+  color: #000000;
+}
+#alamate-code-bi-slash{
+  position: absolute;
+  width: 77px;
+  height: 69px;
+  left: 741px;
+  top: 484px;
+  
+  font-family: 'Port Lligat Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 69px;
+  
+  /* identical to box height */
+  
+  color: #000000;
+}
+#kadre-alamate-code-ba-slash{
+  position: absolute;
+width: 84px;
+height: 84px;
+left: 1260px;
+top: 200px;
+
+background: #FFFFFF;
+border-radius: 50%;
+
+}
+#kadre-alamate-code-bi-slash{
+  position: absolute;
+width: 100px;
+height: 100px;
+left: 730px;
+top: 469px;
+
+background: #FFFFFF;
+border-radius: 50%;
+}
+
+#khate-roye-dayere-to-khali-ba-kadr-abi{
+ 
+position: absolute;
+width: 169.76px;
+height: 0px;
+left: 493.74px;
+top: 750.56px;
+
+border: 0.5px solid #525252;
+transform: rotate(-141.98deg);
+}
+
+#moraba-chap-khate-roye-dayere-to-khali-ba-kadr-abi{
+  
+box-sizing: border-box;
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 510px;
+top: 697.05px;
+
+background: #FFFCFC;
+border: 0.4px solid #525252;
+transform: rotate(-49.75deg);
+}
+
+#moraba-rast-khate-roye-dayere-to-khali-ba-kadr-abi{
+  box-sizing: border-box;
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 646px;
+top: 803.05px;
+
+background: #FFFCFC;
+border: 0.4px solid #525252;
+transform: rotate(-49.75deg);
+}
+
+#dayere-vasat-khate-roye-dayere-to-khali-ba-kadr-abi{
+  box-sizing: border-box;
+
+position: absolute;
+width: 5px;
+height: 5px;
+left: 580.28px;
+top: 751px;
+
+background: #FFFFFF;
+border: 0.5px solid #000000;
+transform: rotate(3.2deg);
+border-radius: 50%;
+}
+
+#khate-khame-chap{
+  position: absolute;
+
+left:670px;
+top: 569.5px;
+
+/* scondary3 */
+border: 1px solid #355E9C;
+transform: rotate(390deg);
+  width:400px; height:400px;  
+  
+  border-color:#000 transparent transparent transparent;
+  border-radius: 50%/170px 400px 0px 0px;
+}
+
+#khate-khame-rast{
+  
+}
+
+#{
+  
+}
+
+#{
+  
+}
+
+#{
+  
+}
+
+#{
+  
+}
+
+#{
+  
+}
+
+#{
+  
+}
+
+#dokme-narenji-ba-felesh{
+  position: absolute;
+width: 56px;
+height: 56px;
+left: 691px;
+top: 945px;
+
+/* primary */
+background: #EA874F;
+border-radius: 4px;
+}
+#body{
+  
+position: absolute;
+width: 1436px;
+height: 3107px;
+left: 0px;
+top: 1029px;
+
+background: #FFFBFA;
+}
+
+#titre-about-us{
+  position: absolute;
+  width: 110px;
+  height: 36px;
+  left: 122px;
+  top: 95px;
+  margin-left:auto;
+  /* h2-des-b */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  
+  /* identical to box height */
+  
+  /* typo-light */
+  color: #303030;
+}
+
+#kadre-titre-about-us{
+  position: absolute;
+width: 130px;
+height: 36px;
+left: 102px;
+top: 95px;
+
+/* primary1 */
+background: #FFF4EE;
+
+/* primary */
+border: 3px solid #EA874F;
+box-shadow: 0px 4px 15px rgba(255, 244, 238, 0.4);
+}
+
+#matne-about-us{
+  
+position: absolute;
+width: 463px;
+height: 54px;
+left: 112px;
+top: 171px;
+
+/* sub-des-m */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+/* typo-light4 */
+color: #535353;
+}
+
+#dokme-narenji-about-us{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 10px;
+  position: absolute;
+  left: 97px;
+  right: 9.89%;
+  top: 340px;
+  bottom: 11.03%;
+  background: #EA874F;
+  border-radius: 6px;
+  width: 80px;
+  height: 20px;
+  box-shadow: 0px 0px 10px #EA874F;
+}
+
+#matn-dokme-narenji-about-us{
+  width: 101px;
+height: 27px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+position: absolute;
+left: 126px;
+top: 351px;
+}
+
+#dayere-abi-about-us{
+  position: absolute;
+width: 440px;
+height: 440px;
+left: 865px;
+top: 63px;
+
+background: #4F8DEA;
+border-radius: 50%;
+
+
+}
+
+#akse-about-us{
+  position: absolute;
+width: 400px;
+height: 400px;
+left: 850px;
+top: 98px;
+
+background: url(akse-about-us.png);
+border-radius: 50%;
+}
+
+#titre-services{
+  position: absolute;
+  width: 104px;
+  height: 36px;
+  left: 864px;
+  top: 786px;
+  
+  /* h2-des-b */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+ 
+  /* identical to box height */
+  
+  /* typo-light */
+  color: #303030;
+}
+
+#kadre-titre-services{
+  
+position: absolute;
+width: 130px;
+height: 36px;
+left: 836.2px;
+top: 786px;
+
+/* scondary1 */
+background: #DDEBFF;
+
+/* scondary */
+border: 3px solid #4F8DEA;
+box-shadow: 0px 4px 15px rgba(255, 244, 238, 0.4);
+}
+
+#matne-services{
+
+  position: absolute;
+  width: 459px;
+  height: 54px;
+  left: 846px;
+  top: 862px;
+  
+  /* sub-des-m */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  
+  /* typo-light4 */
+  color: #535353;
+}
+
+#akse-services{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 200px;
+  top: 726px;
+  border-radius: 50%;
+  background: url(akse-services.png);
+}
+
+#dayere-narenji-services{
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  left: 135px;
+  top: 693px;
+  
+  /* primary */
+  background: #EA874F;
+  border-radius: 50%;
+  
+}
+
+#dokme-abi-services{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 10px;
+  position: absolute;
+  background: #EA874F;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px #4F8DEA;
+  
+  left: 830px;
+  
+  top: 1000px;
+  
+  
+  /* scondary */
+  background: #4F8DEA;
+  border-radius: 6px;
+  width: 100px;
+  height: 20px;
+}
+
+#matne-dokme-abi-services{
+  position: absolute;
+  width: 101px;
+  height: 27px;
+  left: 870px;
+  top: 1011px;
+  /* sub-des-m */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  
+  /* identical to box height */
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#kadre-titre-our-work{
+  position: absolute;
+width: 130px;
+height: 36px;
+left: 102px;
+top: 1413px;
+
+/* primary1 */
+background: #FFF4EE;
+
+/* primary */
+border: 3px solid #EA874F;
+box-shadow: 0px 4px 15px rgba(255, 244, 238, 0.4);
+}
+
+#titre-our-work{
+  position: absolute;
+  width: 108px;
+  height: 36px;
+  left: 120px;
+  top: 1413px;
+  
+  /* h2-des-b */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  
+  /* identical to box height */
+  
+  /* typo-light */
+  color: #303030;
+}
+
+#matne-our-work{
+  position: absolute;
+  width: 390px;
+  height: 54px;
+  left: 112px;
+  top: 1489px;
+  
+  /* sub-des-m */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  
+  /* typo-light4 */
+  color: #535353;
+}
+
+#akse-bala-our-work{
+  position: absolute;
+
+left: 780px;
+top: 1370px;
+height: 220px;
+        width: 440px;
+        border-radius: 300px 300px 0 0px;
+        background-repeat: no-repeat;
+background: url(akse-bala-our-work.png);
+}
+
+#akse-payin-our-work{
+  position: absolute;
+
+  left: 780px;
+  top: 1590px;
+  height: 220px;
+          width: 440px;
+          border-radius: 0px 0px 300px 300px;
+          background-repeat: no-repeat;
+
+background: url(akse-payin-our-work.png);
+}
+
+#dayere-abi-our-work{
+  
+position: absolute;
+width: 440px;
+height: 440px;
+left: 865px;
+top: 1324px;
+
+/* scondary */
+background: #4F8DEA;
+border-radius: 50%;
+}
+
+#dokme-narenji-our-work{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 10px;
+  position: absolute;
+  left: 5%;
+  right: 9.89%;
+  top: 1600px;
+  bottom: 11.03%;
+  background: #EA874F;
+  border-radius: 6px;
+  width:235px;
+  height: 20px;
+  box-shadow: 0px 0px 10px #EA874F;
+}
+
+#matne-dokme-narenji-our-work{
+  position: absolute;
+  width: 171px;
+  height: 27px;
+  
+  /* sub-des-m */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  
+  /* identical to box height */
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  left: 145px;
+  top: 1612px;
+}
+
+#kadre-titre-comments{
+  position: absolute;
+  width: 144px;
+  height: 36px;
+  left: 852px;
+  top: 2076px;
+  
+  /* scondary1 */
+  background: #DDEBFF;
+  
+  /* scondary */
+  border: 3px solid #4F8DEA;
+  box-shadow: 0px 4px 15px rgba(255, 244, 238, 0.4);
+}
+
+#titre-comments{
+  position: absolute;
+width: 135px;
+height: 36px;
+left: 874px;
+top: 2076px;
+
+/* h2-des-b */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+
+/* identical to box height */
+
+/* typo-light */
+color: #303030;
+}
+
+#matne-comments{
+  position: absolute;
+width: 390px;
+height: 54px;
+left: 856px;
+top: 2152px;
+
+/* sub-des-m */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+/* typo-light4 */
+color: #535353;
+
+
+}
+
+#dayere-narenji-comments{
+  
+position: absolute;
+width: 440px;
+height: 440px;
+left: 135px;
+top: 1986px;
+
+/* primary */
+background: #EA874F;
+border-radius: 50%;
+}
+
+#nazarha{
+  
+position: absolute;
+width: 480px;
+height: 265px;
+left: 115px;
+top: 2073px;
+
+background: #FFFFFF;
+box-shadow: 2px 6px 18px rgba(0, 0, 0, 0.06);
+border-radius: 10px;
+}
+
+
+
+  
+  @media (max-width:390px){
+    #head{
+      position: absolute;
+width: 1550px;
+height: 3650px;
+left: -40px;
+top: 0px;
+
+/* primary1 */
+background: #FFF4EE;
+    }
+    
+    #line-narengi{
+      
+position: absolute;
+width: 1360px;
+height: 50px;
+left: 95px;
+top: 150px;
+
+/* primary2 */
+background: #FFC29D;
+    }
+
+    #titr-balaye-head{
+      position: absolute;
+      width: 1645px;
+      height: 42px;
+      left: 110px;
+      top: 100px;
+      padding-left: 20px;
+      /* tit-ph */
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 110px;
+      line-height: 42px;
+      
+      /* identical to box height */
+      
+      /* typo-light */
+      color: #303030;
+      
+      text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    #matn-balaye-head{
+      position: absolute;
+      width: 1198px;
+      height: 72px;
+      left: 46px;
+      top: 95px;
+      padding-left: 105px;
+      padding-top: 220px;
+      /* sub-ph-m */
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 70px;
+      line-height: 75px;
+      text-align: center;
+      
+      /* typo-light */
+      color: #303030;
+    }
+
+    #dokme-narenji{
+      display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+gap: 10px;
+
+position: absolute;
+width: 350px;
+height: 110px;
+left: 553px;
+right: 5.92%;
+top: 700px;
+border-radius: 15px;
+/* primary */
+background: #EA874F;
+
+    }
+
+    #matn-dokme-narenji{
+      width: 500px;
+height: 24px;
+
+/* sub-ph-m */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 55px;
+line-height: 24px;
+padding-left: 28px;
+padding-top: 43px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+    }
+
+    #dayere-abi-payin{
+      
+position: absolute;
+width: 740px;
+height: 370px;
+left: 1040px;
+top: 1050px;
+
+/* scondary1 */
+background: #DDEBFF;
+transform: rotateZ(270deg);
+border-radius: 500px 500px 0px 0px ;
+    }
+
+    #kadre-narenji{
+      position: absolute;
+width: 1360px;
+height: 425px;
+left: 103px;
+top:1300px;
+
+/* primary2 */
+background: #FFC29D;
+box-shadow: 4px 8px 20px rgba(255, 194, 157, 0.4);
+border-radius: 16px;
+    }
+
+    #adad1-kadre-narenji{
+      position: absolute;
+width: 38px;
+height: 30px;
+left: 40px;
+top: 110px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 30px;
+
+/* identical to box height */
+
+/* typo-light */
+color: #303030;
+    }
+
+    #adad2-kadre-narenji{
+      position: absolute;
+width: 38px;
+height: 30px;
+left: 750px;
+top: 110px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 30px;
+
+/* identical to box height */
+
+/* typo-light */
+color: #303030;
+    }
+
+    #adad3-kadre-narenji{
+      position: absolute;
+width: 40px;
+height: 30px;
+left: 40px;
+top: 280px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 30px;
+
+/* identical to box height */
+
+/* typo-light */
+color: #303030;
+    }
+
+    #adad4-kadre-narenji{
+      position: absolute;
+width: 39px;
+height: 30px;
+left: 750px;
+top: 283px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 30px;
+
+/* identical to box height */
+
+/* typo-light */
+color: #303030;
+    }
+
+    #matn1-kadre-narenji{
+      position: absolute;
+width: 824px;
+height: 20px;
+left: 270px;
+top: 110px;
+
+/* txt-ph-m */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 20px;
+
+/* identical to box height */
+
+/* typo-light4 */
+color: #535353;
+    }
+
+    #matn2-kadre-narenji{
+      position: absolute;
+width: 806px;
+height: 20px;
+left: 990px;
+top: 115px;
+
+/* txt-ph-m */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 20px;
+
+/* identical to box height */
+
+/* typo-light4 */
+color: #535353;
+
+
+    }
+
+    #matn3-kadre-narenji{
+      position: absolute;
+width: 706px;
+height: 20px;
+left: 270px;
+top: 287px;
+
+/* txt-ph-m */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 20px;
+
+/* identical to box height */
+
+/* typo-light4 */
+color: #535353;
+
+
+    }
+
+    #matn4-kadre-narenji{
+      
+position: absolute;
+width: 804px;
+height: 20px;
+left: 985px;
+top: 287px;
+
+/* txt-ph-m */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 20px;
+
+/* identical to box height */
+
+/* typo-light4 */
+color: #535353;
+    }
+
+    #dayere-abi-bala{
+      position: absolute;
+width: 950px;
+height: 950px;
+left: 460px;
+top: 2200px;
+border-radius: 70% ;
+/* scondary1 */
+background: #DDEBFF;
+    }
+
+
+    #dayere-narenji{
+      position: absolute;
+width: 850px;
+height: 850px;
+left: 370px;
+top: 2550px;
+
+/* primary */
+background: #EA874F;
+transform: rotate(-15deg);
+    }
+    
+    #akse-head{
+      position: absolute;
+width: 1000px;
+height: 1000px;
+left: 250px;
+top: 2200px;
+
+
+background: url(akse-head.png);
+
+border-radius:50% ;
+    }
+
+    #kadre-alamate-code-ba-slash{
+      position: absolute;
+width: 160px;
+height: 160px;
+left: 1070px;
+top: 2370px;
+
+background: #FFFFFF;
+    }
+
+    #kadre-alamate-code-bi-slash{
+      position: absolute;
+width: 160px;
+height: 160px;
+left: 230px;
+top:2900px;
+
+background: #FFFFFF;
+    }
+
+    #alamate-code-ba-slash{
+      
+position: absolute;
+width: 38px;
+height: 23px;
+left: 274.18px;
+top: 650.25px;
+
+font-family: 'Port Lligat Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 21.368px;
+line-height: 23px;
+
+/* identical to box height */
+
+color: #000000;
+    }
+
+    #alamate-code-bi-slash{
+      position: absolute;
+width: 34px;
+height: 30px;
+left: 44.8px;
+top: 783.7px;
+
+font-family: 'Port Lligat Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 27.9092px;
+line-height: 30px;
+
+/* identical to box height */
+
+color: #000000;
+    }
+
+    #dayere-to-khali-ba-kadr-abi{
+      
+box-sizing: border-box;
+
+position: absolute;
+width: 900px;
+height: 900px;
+left: -350px;
+top: 1060px;
+border-radius: 50%;
+/* scondary3 */
+border: 4px solid #355E9C;
+transform: rotate(90deg);
+    }
+
+    #mostatil-sefid{
+     position: relative; 
+     left: 1900px;
+    }
+
+    #khate-saf-balaye-head{
+      
+position: absolute;
+width: 500px;
+height: 0px;
+left: 500px;
+top: 2200px;
+
+border: 1.5px solid #525252;
+transform: rotate(-0.66deg);
+    }
+
+    #moraba-chape-khate-saf-balaye-head{
+      
+box-sizing: border-box;
+
+position: absolute;
+width: 10px;
+height: 10px;
+left: 500px;
+top: 2198px;
+
+background: #FFFCFC;
+border: 0.381907px solid #525252;
+transform: rotate(90.03deg);
+    }
+    #moraba-raste-khate-saf-balaye-head{
+      box-sizing: border-box;
+
+position: absolute;
+width: 10px;
+height: 10px;
+left: 999px;
+top: 2193.5px;
+
+background: #FFFCFC;
+border: 0.381907px solid #525252;
+transform: rotate(-178.65deg);
+    }
+
+    #dayere-vasat-khate-saf-balaye-head{
+      
+box-sizing: border-box;
+
+position: absolute;
+width: 10px;
+height: 10px;
+left: 750px;
+top: 2196px;
+
+background: #FFFFFF;
+
+/* scondary3 */
+border: 0.636512px solid #355E9C;
+transform: rotate(-177.46deg);
+    }
+
+    #khate-kham-balaye-head{
+      position: absolute;
+
+left: 300px;
+top: 2200px;
+
+border: 2.5px solid #355E9C;
+transform: rotate(360deg);
+  width:900px; height:250px;  
+  
+  border-color: #355E9C transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
+    }
+    #moraba-chap-khate-kham-balaye-head{
+      box-sizing: border-box;
+
+position: absolute;
+width: 10px;
+height: 10px;
+left:345px;
+top: 2250px;
+
+background: #FFFCFC;
+
+/* scondary3 */
+border: 0.636512px solid #355E9C;
+transform: rotate(140.4deg);
+    }
+
+    #moraba-rast-khate-kham-balaye-head{
+      box-sizing: border-box;
+
+position: absolute;
+width: 10px;
+height: 10px;
+left: 1145px;
+top: 2248px;
+
+background: #FFFCFC;
+
+/* scondary3 */
+border: 0.636512px solid #355E9C;
+transform: rotate(-127.06deg);
+    }
+
+
+    #khate-roye-dayere-to-khali-ba-kadr-abi{
+      
+position: absolute;
+width: 550px;
+height: 0px;
+left: 24.62px;
+top: 1910px;
+
+border: 2px solid #525252;
+transform: rotate(-27.73deg);
+    }
+
+
+    #moraba-chap-khate-roye-dayere-to-khali-ba-kadr-abi{
+      box-sizing: border-box;
+
+position: absolute;
+width: 15px;
+height: 15px;
+left: 52px;
+top: 2031px;
+
+background: #FFFCFC;
+border: 0.4px solid #525252;
+transform: rotate(64.49deg);
+    }
+
+    #moraba-rast-khate-roye-dayere-to-khali-ba-kadr-abi{
+      
+box-sizing: border-box;
+
+position: absolute;
+width: 15px;
+height: 15px;
+left: 535px;
+top: 1777px;
+
+background: #FFFCFC;
+border: 0.4px solid #525252;
+transform: rotate(64.49deg);
+    }
+
+    #dayere-vasat-khate-roye-dayere-to-khali-ba-kadr-abi{
+      box-sizing: border-box;
+
+position: absolute;
+width: 15px;
+height: 15px;
+left: 290px;
+top: 1907px;
+
+background: #FFFFFF;
+border: 0.5px solid #000000;
+transform: rotate(117.45deg);
+    }
+
+    #khate-khame-chap{
+      position: relative;
+      left: 1900px;
+    }
+
+    #khate-khame-rast{
+      
+    }
+
+    #khate-vasate-2ta-khat{
+      
+    }
+
+    #dokme-narenji-ba-felesh{
+      
+position: absolute;
+width: 130px;
+height: 130px;
+left: 670px;
+top: 3580px;
+
+/* primary */
+background: #EA874F;
+border-radius: 12px;
+    }
+
+    #felesh{
+      position: absolute;
+left: 13.88%;
+right: 13.89%;
+top: 34.18%;
+bottom: 30%;
+
+/* typo-light */
+background: #303030;
+    }
+
+    #body{
+      position: absolute;
+width: 1600px;
+height: 15760px;
+left: -40px;
+top: 3900px;
+
+background: #FFFBFA;
+    }
+
+    #kadre-titre-about-us{
+      position: absolute;
+width: 350px;
+height: 110px;
+left: 590px;
+top: 100px;
+
+/* primary1 */
+background: #FFF4EE;
+
+/* primary */
+border: 7px solid #EA874F;
+box-shadow: 0px 4px 15px rgba(255, 244, 238, 0.4);
+    }
+
+    #titre-about-us{
+      
+position: absolute;
+width: 400px;
+height: 27px;
+left: 626px;
+top: 145px;
+
+/* h2-ph-b */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 27px;
+
+/* identical to box height */
+
+/* typo-light */
+color: #303030;
+    }
+
+    #matne-about-us{
+      position: absolute;
+width: 818px;
+height: 72px;
+left: 360px;
+top: 320px;
+
+/* sub-ph-m */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size:60px;
+line-height: 84px;
+text-align: center;
+
+/* typo-light4 */
+color: #535353;
+    }
+
+    #dokme-narenji-about-us{
+      display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 20px;
+gap: 10px;
+
+position: absolute;
+width: 400px;
+height: 130px;
+left: 550px;
+
+top:680px;
+
+/* primary */
+background: #EA874F;
+border-radius: 12px;
+    }
+
+    #matn-dokme-narenji-about-us{
+      width: 400px;
+height: 24px;
+left: 610px;
+top: 740px;
+/* sub-ph-m */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 55px;
+line-height: 24px;
+
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+    }
+
+    #dayere-abi-about-us{
+      
+position: absolute;
+width: 720px;
+height: 720px;
+left: 480px;
+top: 1000px;
+
+/* scondary */
+background: #4F8DEA;
+    }
+
+    #akse-about-us{
+      position: absolute;
+width: 720px;
+height: 720px;
+left:400px;
+top: 1120px;
+
+background: url(akse-about-us.png)
+    }
+
+    #kadre-titre-services{
+      position: absolute;
+      width: 350px;
+      height: 110px;
+      left: 590px;
+      top: 2250px;
+
+/* scondary1 */
+background: #DDEBFF;
+
+/* scondary */
+border: 6px solid #4F8DEA;
+box-shadow: 0px 4px 15px rgba(255, 244, 238, 0.4);
+    }
+
+    #titre-services{
+      position: absolute;
+      
+      width: 400px;
+      height: 27px;
+      left: 637px;
+      top: 2292px;
+      
+      /* h2-ph-b */
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 65px;
+      line-height: 27px;
+
+/* identical to box height */
+
+/* typo-light */
+color: #303030;
+    }
+
+    #matne-services{
+      position: absolute;
+width: 818px;
+height: 72px;
+left: 360px;
+top: 2470px;
+
+/* sub-ph-m */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size:60px;
+line-height: 84px;
+text-align: center;
+
+/* typo-light4 */
+color: #535353;
+
+
+    }
+
+    #dayere-narenji-services{
+      
+      position: absolute;
+      width: 720px;
+      height: 720px;
+      left: 330px;
+      top: 3150px;
+
+/* primary */
+background: #EA874F;
+    }
+
+    #akse-services{
+      
+      position: absolute;
+      width: 720px;
+      height: 720px;
+      left:430px;
+      top: 3260px;
+
+background: url(akse-services.png);
+    }
+
+    #dokme-abi-services{
+      display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 20px;
+gap: 10px;
+
+position: absolute;
+width: 400px;
+height: 130px;
+left: 550px;
+
+top:2830px;
+
+
+background: #4F8DEA;
+border-radius: 12px;
+
+
+    }
+
+    #matne-dokme-abi-services{
+      width: 400px;
+height: 24px;
+left: 615px;
+top: 2890px;
+/* sub-ph-m */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 55px;
+line-height: 24px;
+
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+    }
+
+    #kadre-titre-our-work{
+      position: absolute;
+      width: 350px;
+      height: 110px;
+      left: 590px;
+      top: 4350px;
+
+/* primary1 */
+background: #FFF4EE;
+
+/* primary */
+border: 6px solid #EA874F;
+box-shadow: 0px 4px 15px rgba(255, 244, 238, 0.4);
+    }
+
+    #titre-our-work{
+      position: absolute;
+      
+      width: 400px;
+      height: 27px;
+      left: 629px;
+      top: 4395px;
+      
+      /* h2-ph-b */
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 65px;
+      line-height: 27px;
+
+/* identical to box height */
+
+/* typo-light */
+color: #303030;
+    }
+
+    #matne-our-work{
+      position: absolute;
+width: 818px;
+height: 72px;
+left: 360px;
+top: 4570px;
+
+/* sub-ph-m */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size:60px;
+line-height: 84px;
+text-align: center;
+/* typo-light4 */
+color: #535353;
+    }
+    #dayere-abi-our-work{
+      
+      position: absolute;
+      width: 820px;
+      height: 820px;
+      left: 500px;
+      top: 5300px;
+
+/* scondary */
+background: #4F8DEA;
+    }
+
+    #akse-bala-our-work{
+      
+
+
+        border-radius: 400px 400px 0 0px;
+        background-repeat: no-repeat;
+      position: absolute;
+      width: 820px;
+      height: 410px;
+      left: 370px;
+      top: 5330px;
+
+background: url(akse-bala-our-work.png);
+    }
+
+    #akse-payin-our-work{
+      
+          border-radius: 0px 0px 400px 400px;
+          background-repeat: no-repeat;
+      position: absolute;
+      width: 820px;
+      height: 410px;
+      left: 370px;
+      top: 5740px;
+
+background: url(akse-payin-our-work.png);
+    }
+
+    #dokme-narenji-our-work{
+      display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 20px;
+gap: 10px;
+
+position: absolute;
+width: 600px;
+height: 130px;
+left: 445px;
+
+top:4940px;
+
+/* primary */
+background: #EA874F;
+border-radius: 15px;
+    }
+
+    #matne-dokme-narenji-our-work{
+      width: 800px;
+      height: 24px;
+      left: 515px;
+      top: 5000px;
+      /* sub-ph-m */
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 24px;
+      
+      /* identical to box height */
+      
+      color: #FFFFFF;
+      
+      
+      /* Inside auto layout */
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    #kadre-titre-comments{
+      position: absolute;
+      width: 350px;
+      height: 110px;
+      left: 590px;
+      top: 6550px;
+
+/* primary1 */
+
+background: #DDEBFF;
+
+/* scondary */
+border:7px solid #4F8DEA;
+box-shadow: 0px 4px 15px rgba(255, 244, 238, 0.4);
+    }
+
+    #titre-comments{
+      position: absolute;
+      
+      width: 400px;
+      height: 27px;
+      left: 600px;
+      top: 6594px;
+      
+      /* h2-ph-b */
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 62px;
+      line-height: 27px;
+
+/* typo-light */
+color: #303030;
+    }
+
+    #matne-comments{
+      
+      position: absolute;
+      width: 800px;
+      height: 72px;
+      left: 365px;
+      top: 6800px;
+      
+      /* sub-ph-m */
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size:60px;
+      line-height: 84px;
+      text-align: center;
+
+/* typo-light4 */
+color: #535353;
+
+
+    }
+
+    #dayere-narenji-comments{
+      
+      position: absolute;
+      width: 820px;
+      height: 820px;
+      left:365px;
+      top: 7500px;
+
+/* primary */
+background: #EA874F;
+    }
+
+    #nazarha{
+      
+position: absolute;
+width: 800px;
+height: 500px;
+left: 373px;
+top: 7618px;
+
+background: #FFFFFF;
+box-shadow: 2px 6px 18px rgba(0, 0, 0, 0.06);
+border-radius: 10px;
+    }
+
+  }
+
+
