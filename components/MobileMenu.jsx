@@ -4,8 +4,32 @@ import NavbarHeader from "../components/NavbarHeader";
 import DarkMode from "../components/DarkMode";
 
 const MobileMenu = () => {
+
 	const [showMenu, setShowMenu] = useState(false);
 
+	const itemNavBarMobile = [
+		{
+			name: "Home",
+			link: "/",
+		},
+		{
+			name: "work",
+			link: "/work",
+		},
+		{
+			name: "Our Team",
+			link: "/team",
+		},
+		{
+			name: "Services",
+			link: "/services",
+		},
+		{
+			name: "Contact",
+			link: "/contact",
+		},
+	];
+	
 	return (
 		<>
 			<IoMenu
@@ -29,7 +53,7 @@ const MobileMenu = () => {
 
 				<div className="flex flex-col items-center justify-between w-full h-full">
 					<div>
-						<NavbarHeader priority="mobileMenu" />
+						<NavbarHeader priority="mobileMenu" list={itemNavBarMobile} />
 					</div>
 
 					<div className="container py-5 text-center">
