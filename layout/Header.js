@@ -1,4 +1,4 @@
-import NavbarHeader from "../components/NavbarHeader";
+import Navbars from "../components/Navbars";
 import DarkMode from "../components/DarkMode";
 import TalentNetworkLogo from "../components/TalentNetworkLogo";
 import MobileMenu from "../components/MobileMenu";
@@ -38,7 +38,7 @@ const Header = () => {
 				</div>
 
 				<div className="hidden md:flex ml-24 lg:ml-48">
-					<NavbarHeader priority="row" list={itemNavBarHeader} />
+					<Navbars priority="row" list={itemNavBarHeader} />
 				</div>
 
 				<div className="hidden md:flex ml-24 lg:ml-48">

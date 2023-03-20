@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { IoClose, IoMenu } from "react-icons/io5";
-import NavbarHeader from "../components/NavbarHeader";
+import Navbars from "./Navbars";
 import DarkMode from "../components/DarkMode";
 
 const MobileMenu = () => {
@@ -29,7 +29,7 @@ const MobileMenu = () => {
 			link: "/contact",
 		},
 	];
-	
+
 	return (
 		<>
 			<IoMenu
@@ -53,7 +53,7 @@ const MobileMenu = () => {
 
 				<div className="flex flex-col items-center justify-between w-full h-full">
 					<div>
-						<NavbarHeader priority="mobileMenu" list={itemNavBarMobile} />
+						<Navbars priority="mobileMenu" list={itemNavBarMobile} />
 					</div>
 
 					<div className="container py-5 text-center">

@@ -1,4 +1,4 @@
-import NavbarHeader from "../components/NavbarHeader";
+import Navbars from "../components/Navbars";
 
 const Footer = () => {
 	const itemNavBarImportantLink = [
@@ -51,11 +51,11 @@ const Footer = () => {
 			<div className="container flex flex-col gap-2 bg-secondary-50 dark:bg-secondary-900 rounded-t-lg">
 				<div className="flex gap-2">
 					<div className="w-full lg:w-[48%]">
-						<NavbarHeader list={itemNavBarImportantLink} />
+						<Navbars list={itemNavBarImportantLink} />
 					</div>
 
 					<div className="w-full lg:w-[48%]">
-						<NavbarHeader list={itemNavBarBestLink} />
+						<Navbars list={itemNavBarBestLink} />
 					</div>
 
 					<div className="w-full lg:w-[48%]"></div>
