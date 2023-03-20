@@ -1,10 +1,34 @@
 import { useState } from "react";
 import { IoClose, IoMenu } from "react-icons/io5";
-import NavbarHeader from "../components/NavbarHeader";
+import Navbars from "./Navbars";
 import DarkMode from "../components/DarkMode";
 
 const MobileMenu = () => {
+
 	const [showMenu, setShowMenu] = useState(false);
+
+	const itemNavBarMobile = [
+		{
+			name: "Home",
+			link: "/",
+		},
+		{
+			name: "work",
+			link: "/work",
+		},
+		{
+			name: "Our Team",
+			link: "/team",
+		},
+		{
+			name: "Services",
+			link: "/services",
+		},
+		{
+			name: "Contact",
+			link: "/contact",
+		},
+	];
 
 	return (
 		<>
@@ -29,7 +53,7 @@ const MobileMenu = () => {
 
 				<div className="flex flex-col items-center justify-between w-full h-full">
 					<div>
-						<NavbarHeader priority="mobileMenu" />
+						<Navbars priority="mobileMenu" list={itemNavBarMobile} />
 					</div>
 
 					<div className="container py-5 text-center">
